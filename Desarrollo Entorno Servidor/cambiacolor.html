@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+    <script>
+        function cambiaColor(color){
+            document.body.style.backgroundColor=color;
+        }
+        function descarga(){
+            var mibarra=document.getElementById("barra");
+            mibarra.value+=5;
+        }
+    </script>
+</head>
+<body>
+    <label><input type="color" name="color" onchange="cambiaColor(this.value);"></label>
+    <p>Quiero que dentro de un párrafo pongaís la etiqueta que la forma &lt;p&gt; </p>
+    <p>
+        <pre>Quiero que dentro de un párrafo pongaís la etiqueta que la forma <p> </pre>
+    </p>
+
+    <p>Descarga: <meter id="barra" min="0" max="100" value="0">Valor: 10 de 100</meter></p>
+    <button onclick="descarga()">Comienza la descarga</button>
+</body>
+</html>

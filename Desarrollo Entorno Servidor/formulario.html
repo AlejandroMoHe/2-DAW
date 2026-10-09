@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" action="http://192.168.0.202/datosFormulario.php" enctype="multipart/form-data" >
+        <label>Nombre<input type="text" name="nombre"></label>
+        <label>Apellido1: <input type="text" name="apellido1"></label>
+        <label>Apellido2: <input type="text" name="apellido2"></label>
+        <label>Fecha de nacimiento: <input type="date" name="fecha_nac"></label>
+        <label>Sexo:<br>
+            Hombre<input type="radio" name="sexo" value="H">
+            Mujer<input type="radio" name="sexo" value="M">
+        </label>
+        <label>DNI: <input type="text" name="dni"></label>
+        <label>Nombre de padre: <input type="text" name="padre"></label>
+        <label>Nombre de madre: <input type="text" name="madre"></label>
+        <label>Número de hermanos: <input type="number" step="1" value="0" name="hermanos"></label>
+        <label>Fotografía: <input type="file" name="foto"></label>
+
+        <label>Expresa tu opinión: <textarea name="opinion"></textarea></label>
+
+        <input type="submit" name="action" value="enviar">
+
+
+    </form>
+
+
+</body>
+</html>

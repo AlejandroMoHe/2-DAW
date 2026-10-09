@@ -1,3 +1,5 @@
+//Alejandro Molina y Pedro Javier Silvente
+
 let nombreUsuario = prompt("Nombre de usuario:");
 let email = prompt("Escribe tu email:");
 let edad = prompt("Introduce tu edad:");

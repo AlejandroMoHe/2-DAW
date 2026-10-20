@@ -1,0 +1,15 @@
+body{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    background-color: lightgray;
+}
+
+#párrafo{
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}

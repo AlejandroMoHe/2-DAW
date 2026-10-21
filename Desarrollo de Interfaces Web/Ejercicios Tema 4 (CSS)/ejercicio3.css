@@ -1,8 +1,8 @@
-*{
+* {
     background-color: blue;
     opacity: 30%;
 }
 
-.columna{
-    align-items: center;
+.columna {
+    padding: 10px;
 }

@@ -1,11 +1,19 @@
-let lista = [true, true, false, false, true, false, true, false, false, false]
-let verdaderos = []
+let valores = [];
+let i = 0;
 
-
-if (lista === true){
-    verdaderos.push()
-}else{
-    falsos.push()
+while (i < 10) {
+    valores.push(Math.random() < 0.5);
+    i++;
 }
 
-console.log(`Las posiciones de los verdaderos son: ${verdaderos}`)
+console.log(valores);
+
+i = 0;
+
+while (i < 10) {
+    if (valores[i] == true) {
+        console.log("Posición: " + i);
+    }
+
+    i++;
+}

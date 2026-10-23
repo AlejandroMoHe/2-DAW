@@ -1,8 +1,7 @@
-* {
-    background-color: blue;
-    opacity: 30%;
+body {
+    background-color: rgba(0, 0, 255, 0.3);
 }
 
-.columna {
-    padding: 10px;
+.columna p {
+    color: black
 }

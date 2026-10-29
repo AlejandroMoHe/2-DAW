@@ -1,0 +1,120 @@
+/* ==========================================================
+   1. SELECTOR UNIVERSAL Y SELECTORES BÁSICOS (ETIQUETAS)
+   ========================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f9f8f6;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+
+h1, h2, h3 {
+    color: #4a3b32;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+
+/* ==========================================================
+   2. SELECTORES DESCENDIENTES
+   ========================================================== */
+p a {
+    color: #b8860b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ==========================================================
+   3. IDENTIFICADORES (ID) Y CLASES (CLASS)
+   ========================================================== */
+
+#cabecera-principal {
+    background-color: #1a252c;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta-tour {
+    background-color: #ffffff;
+    border: 1px solid #dcd6d0;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.tarjeta-tour#tour-destacado {
+    border: 2px solid #b8860b;
+    background-color: #fffdf9;
+}
+
+
+/* ==========================================================
+   4. PSEUDOCLASES
+   ========================================================== */
+a:link {
+    color: #b8860b;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #d9534f;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #d43f3a;
+}
+
+li:first-child {
+    font-size: 1.1em;
+    color: #b8860b;
+    font-weight: bold;
+    list-style-type: square;
+}
+
+li:last-of-type {
+    font-weight: bolder;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+
+/* ==========================================================
+   5. PSEUDOELEMENTOS
+   ========================================================== */
+p::first-letter {
+    font-size: 1.5em;
+    color: #b8860b;
+    font-weight: bold;
+}

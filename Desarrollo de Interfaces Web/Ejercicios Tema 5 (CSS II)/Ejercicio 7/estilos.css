@@ -1,0 +1,29 @@
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+li {
+    font-style: italic;
+}
+
+.menu {
+    color: black;
+    text-decoration: underline;
+}
+
+.galeria {
+    color: gray;
+    text-decoration: none;
+}

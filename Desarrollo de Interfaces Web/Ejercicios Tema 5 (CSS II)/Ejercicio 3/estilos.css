@@ -1,0 +1,12 @@
+#segundo{
+    color: green;
+}
+
+#primero, #cuarto{
+    color: blue;
+    font-weight: bold;
+}
+
+#tercero{
+    color: blue;
+}

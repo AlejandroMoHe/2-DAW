@@ -1,0 +1,25 @@
+p, #tercero{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#tamaño{
+    font-size: 1.5rem;
+}
+
+#estilo{
+    font-style: italic;
+}
+
+#primero{
+    font-family: Helvetica;
+}
+
+#segundo{
+    font-family: Arial;
+}

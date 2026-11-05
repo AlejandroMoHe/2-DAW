@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Times;
+    font-size: 12px;
+}
+
+h1{
+    font-family: Courier;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: Courier;
+    font-size: 15px;
+    color: blue;
+}
+
+#hora{
+    font-weight: bold;
+}

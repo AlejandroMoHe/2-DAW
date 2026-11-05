@@ -7,7 +7,7 @@ function segundoGrado(a, b, c) {
     }
 
     if (discriminante < 0) {
-        return [];
+        return "No hay resultado posible";
     }
 
     let resultado1 = (-b + Math.sqrt(discriminante)) / (2 * a);

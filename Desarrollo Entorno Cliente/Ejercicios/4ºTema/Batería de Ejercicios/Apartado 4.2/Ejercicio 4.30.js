@@ -1,12 +1,17 @@
-// Esta función recoge el número y comprueba si el número es divisible o si es menor de su raíz cuadrada
-function esPrimo(num) {
-    let limite = Math.sqrt(num)
-    for (let i = 3; i <= limite; i += 2) {
-        if (num % i === 0) {
+// 4.30. Comprueba si un número es primo.
+function esPrimo(numero) {
+    if (numero < 2) {
+        return false;
+    }
+
+    for (let i = 2; i < numero; i++) {
+        if (numero % i === 0) {
             return false;
-        }else{
-            return true
         }
     }
+
+    return true;
 }
-esPrimo(127)
+
+console.log(esPrimo(7));  // true
+console.log(esPrimo(10)); // false

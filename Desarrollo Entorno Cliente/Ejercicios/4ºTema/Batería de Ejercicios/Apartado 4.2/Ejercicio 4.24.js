@@ -1,8 +1,8 @@
-// Esta funcion recoge el numero e imprime el numero por el indice el cual seria el multiplo
-function tablaMultiplicar(num){
-    for (let i = 0; i < 11; i++) {
-        console.log (`${num} X ${i} = ${num * i}`) 
+// 4.24. Muestra la tabla de multiplicar de un número.
+function tablaMultiplicar(numero) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(numero + " x " + i + " = " + (numero * i));
     }
 }
 
-tablaMultiplicar(7);
+tablaMultiplicar(5);

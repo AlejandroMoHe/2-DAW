@@ -1,11 +1,7 @@
-//La función recoge el número y hace el modulo. Si es 0 significa que se puede multiplicar por 10
-function multiplo(num) {
-    if (num % 10 === 0){
-        console.log("El número introducido es múltiplo de 10")
-    }else{
-        console.log("El número introducido NO es múltiplo de 10")
-    }
-
+// 4.22. Comprueba si un número es múltiplo de 10.
+function multiploDe10(numero) {
+    return numero % 10 === 0;
 }
 
-multiplo(21)
+console.log(multiploDe10(30)); // true
+console.log(multiploDe10(24)); // false

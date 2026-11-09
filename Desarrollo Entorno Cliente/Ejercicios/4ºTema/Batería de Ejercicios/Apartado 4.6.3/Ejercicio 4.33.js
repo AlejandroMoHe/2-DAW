@@ -1,15 +1,12 @@
-function noLetras(lista1) {
+// 4.33. Devuelve los caracteres que no pertenecen al alfabeto español.
+// Se utiliza filter para seleccionar los caracteres.
+function caracteresNoValidos(palabras) {
+    let caracteres = palabras.join("").split("");
 
-    let letras = "abcdefghijklmnopqrstuvwxyz"
-
-    for (let i = 0; i < lista1.length; i++) {
-        for (let j = 0; j < letras; j++) {
-            if (toLowerCase(lista1[i]) !== j){
-                console.log(lista1[i])
-        };    
-        }
-        
-    }
+    return caracteres.filter(function (letra) {
+        return !/[a-zñ]/i.test(letra);
+    });
 }
 
-let lista1 = ["afgwiuvwbenvwimvb%$&%$iojfoew"]
+console.log(caracteresNoValidos(["hola^", "niño", "casa$&"]));
+// Devuelve los símbolos que aparecen en las cadenas de texto.

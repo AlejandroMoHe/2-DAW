@@ -1,7 +1,8 @@
-(async () => {
-  console.log("Comenzando...");
-  
-  await new Promise(resolve => setTimeout(resolve, 3000));
+// 4.27. Función autoejecutable: espera tres segundos antes de finalizar.
+(function () {
+    console.log("Comenzando...");
 
-  console.log("Finalizado.");
+    setTimeout(function () {
+        console.log("Finalizado.");
+    }, 3000);
 })();

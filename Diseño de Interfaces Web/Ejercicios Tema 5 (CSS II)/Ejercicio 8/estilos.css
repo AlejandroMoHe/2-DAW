@@ -1,23 +1,28 @@
 #primero {
     font-weight: bold;
 }
-#segundo{
+
+#segundo {
     font-weight: bold;
     font-size: 1.2rem;
 }
-#tercero{
+
+#tercero {
     font-weight: bold;
     font-size: 1.4rem;
 }
-#cuarto{
+
+#cuarto {
     font-weight: bold;
     font-size: 1.6rem;
 }
-#quinto{
+
+#quinto {
     font-weight: bold;
     font-size: 1.8rem;
 }
-#sexto{
+
+#sexto {
     font-weight: bold;
     font-size: 2rem;
     padding-left: 50px;

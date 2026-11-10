@@ -1,5 +1,5 @@
 /* ==========================================================
-   1. SELECTOR UNIVERSAL Y SELECTORES BÁSICOS (ETIQUETAS)
+1. SELECTOR UNIVERSAL Y SELECTORES BÁSICOS (ETIQUETAS)
    ========================================================== */
 * {
     margin: 0;
@@ -13,7 +13,6 @@ body {
     color: #2c2c2c;
     line-height: 1.6;
 }
-
 
 h1, h2, h3 {
     color: #4a3b32;
@@ -39,7 +38,6 @@ p {
     font-size: 1em;
 }
 
-
 /* ==========================================================
    2. SELECTORES DESCENDIENTES
    ========================================================== */
@@ -49,11 +47,9 @@ p a {
     font-weight: bold;
 }
 
-
 /* ==========================================================
    3. IDENTIFICADORES (ID) Y CLASES (CLASS)
    ========================================================== */
-
 #cabecera-principal {
     background-color: #1a252c;
     color: #ffffff;
@@ -74,7 +70,6 @@ p a {
     border: 2px solid #b8860b;
     background-color: #fffdf9;
 }
-
 
 /* ==========================================================
    4. PSEUDOCLASES
@@ -108,7 +103,6 @@ li:last-of-type {
     border-top: 1px solid #ccc;
     padding-top: 5px;
 }
-
 
 /* ==========================================================
    5. PSEUDOELEMENTOS

@@ -1,16 +1,16 @@
-#caja1{
+#caja1 {
     background-image: url("./imagenes/mapache.jpeg");
     background-repeat: no-repeat;
     background-position: bottom left;
 }
 
-#caja2{
+#caja2 {
     background-image: url("./imagenes/llama.jpeg");
     background-repeat: no-repeat;
     background-position: right top;
 }
 
-#caja3{
+#caja3 {
     background-image: url("./imagenes/sapo.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 50%;

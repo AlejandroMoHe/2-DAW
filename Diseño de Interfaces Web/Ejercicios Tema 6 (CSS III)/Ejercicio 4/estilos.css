@@ -1,11 +1,11 @@
-div{
+div {
     overflow: auto;
 }
 
-a.anterior{
+a.anterior {
     float: left;
 }
 
-a.siguiente{
+a.siguiente {
     float: right;
 }

@@ -1,25 +1,25 @@
-p, #tercero{
+p, #tercero {
     font-family: 'Times New Roman';
     font-weight: bold;
 }
 
-li{
+li {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-#tamaño{
+#tamaño {
     font-size: 1.5rem;
 }
 
-#estilo{
+#estilo {
     font-style: italic;
 }
 
-#primero{
+#primero {
     font-family: Helvetica;
 }
 
-#segundo{
+#segundo {
     font-family: Arial;
 }

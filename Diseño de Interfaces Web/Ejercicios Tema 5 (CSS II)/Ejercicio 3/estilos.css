@@ -1,12 +1,12 @@
-#segundo{
+#segundo {
     color: green;
 }
 
-#primero, #cuarto{
+#primero, #cuarto {
     color: blue;
     font-weight: bold;
 }
 
-#tercero{
+#tercero {
     color: blue;
 }

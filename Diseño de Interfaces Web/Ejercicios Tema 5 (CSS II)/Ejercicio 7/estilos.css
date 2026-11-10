@@ -1,3 +1,4 @@
+/* Puntos 1, 2 y 3: Estados de los enlaces */
 a {
     color: green;
     text-decoration: none;
@@ -13,16 +14,19 @@ a:visited {
     font-weight: bold;
 }
 
+/* Punto 4: Elementos de tipo listado siempre en cursiva */
 li {
     font-style: italic;
 }
 
-.menu {
+/* Punto 5: Títulos impares (color negro y subrayados) */
+.impar {
     color: black;
     text-decoration: underline;
 }
 
-.galeria {
+/* Punto 5: Títulos pares (color gris y sin subrayar) */
+.par {
     color: gray;
     text-decoration: none;
 }

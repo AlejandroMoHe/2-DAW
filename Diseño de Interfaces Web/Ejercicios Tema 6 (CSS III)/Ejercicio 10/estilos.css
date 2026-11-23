@@ -1,0 +1,38 @@
+body {
+            font-family: Arial, sans-serif;
+            color: #333333;
+            line-height: 1.5;
+            padding: 20px;
+        }
+
+        .titulo-principal {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 24pt;
+            font-style: italic;
+            text-align: center;
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        .texto-decorado {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14pt;
+            text-align: justify;
+            text-decoration: line-through; /* Ejemplo de texto decorado */
+            color: #d9534f;
+        }
+
+        .caja-fondo {
+            width: 100%;
+            height: 200px;
+            background-image: url("imagen-fondo.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            font-size: 16pt;
+            font-weight: bold;
+            line-height: 200px; /* Centra el texto verticalmente en este ejemplo sencillo */
+            margin-top: 20px;
+        }

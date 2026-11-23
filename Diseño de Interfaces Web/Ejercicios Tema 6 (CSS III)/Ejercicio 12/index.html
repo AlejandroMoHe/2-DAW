@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Ejercicio 1</title>
+    <title>Ejercicio 12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        .mosaico-contenedor {
+            width: 900px;
+            margin: 0 auto;
+            overflow: auto;
+        }
+
+        .tarjeta {
+            float: left;
+            width: 200px;
+            height: 200px;
+            margin: 12px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .tarjeta p {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #333;
+            font-size: 0.95rem;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Mosaico de la Galería</h1>
+    <div class="mosaico-contenedor">
+        <div class="tarjeta"><img src="./imagenes/ardilla.jpg" alt="Foto 1"><p>Ardilla</p></div>
+        <div class="tarjeta"><img src="./imagenes/erizo.jpg" alt="Foto 2"><p>Erizo</p></div>
+        <div class="tarjeta"><img src="./imagenes/gato.jpg" alt="Foto 3"><p>Gato</p></div>
+        <div class="tarjeta"><img src="./imagenes/koala.jpg" alt="Foto 4"><p>Koala</p></div>
+        <div class="tarjeta"><img src="./imagenes/panda.jpg" alt="Foto 5"><p>Panda</p></div>
+        <div class="tarjeta"><img src="./imagenes/perezoso.jpg" alt="Foto 6"><p>Perezoso</p></div>
+        <div class="tarjeta"><img src="./imagenes/suricato.jpg" alt="Foto 7"><p>Suricato</p></div>
+        <div class="tarjeta"><img src="./imagenes/tucan.jpg" alt="Foto 8"><p>Tucán</p></div>
+    </div>
 </body>
 </html>

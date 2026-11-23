@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Ejercicio 1</title>
+    <title>Ejercicio 11 - Galería de Imágenes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header class="cabecera-galeria">
+        <h1>Galería Fotográfica Principal</h1>
+        <p class="subtitulo">Colección temática de la temporada actual</p>
+    </header>
+
+    <section class="seccion-principal">
+        <h2>Listado de Especies Disponibles</h2>
+        <p>A continuación se detallan algunas de las mejores capturas fotográficas registradas este mes:</p>
+        
+        <ul class="lista-especies">
+            <li>Fotografía de Ardilla - <strong>Alta Resolución</strong></li>
+            <li>Fotografía de Erizo - <strong>Formato Estándar</strong></li>
+            <li>Fotografía de Gato - <strong>Primer Plano</strong></li>
+            <li>Fotografía de Koala - <strong>Paisaje Natural</strong></li>
+        </ul>
+    </section>
+
+    <div class="contenedor-galeria">
+        <div class="item-foto"><img src="./imagenes/ardilla.jpg" alt="Ardilla"><p>Ardilla</p></div>
+        <div class="item-foto"><img src="./imagenes/erizo.jpg" alt="Erizo"><p>Erizo</p></div>
+        <div class="item-foto"><img src="./imagenes/gato.jpg" alt="Gato"><p>Gato</p></div>
+        <div class="item-foto"><img src="./imagenes/koala.jpg" alt="Koala"><p>Koala</p></div>
+    </div>
+
 </body>
 </html>
